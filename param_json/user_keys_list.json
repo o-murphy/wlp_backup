@@ -1,0 +1,17 @@
+[
+    "addr_provider,webg_c,webg_c_id,city,umsp",
+    "agrsn,znsn,znsrv,zlg,rtssn",
+    "tz,dst",
+    "geodata_source",
+    "selected_settings",
+    "cfmt",
+    "complete_copy",
+    "user_unit_cmds",
+    "us_addr_fmt",
+    "ursstp,usuei,usdrva",
+    "show_log,user_settings_hotkeys,msc,pnfs,evt_flags,hbacit,hpnl,inf_map,uschs",
+    "mfrl,muf,last_tail_points,last_tail_color,last_tail_width,mf_use_sensors,sens_color_tooltip",
+    "mu_cmd_btn,mu_gprs,mu_watch,mu_fast_track_ival,mu_photo,mu_video,mu_tracks,mu_sens,mu_gps,mu_move,mu_msgs,mu_messages_filter_ival,mu_reps,mu_route,mu_events,mu_dev_cfg,mont,mu_sms,mu_gps_mode,mu_gps_time,mu_location,mu_loc_mode,mu_fast_report,mu_fast_report_ival,mu_fast_report_tmpl,mu_tag,mu_delete_from_list,wdcheck,mu_driver,mu_drv_mode,mu_trailer,mu_tr_mode,mu_move_durr,mu_gprs_durr,mu_sl_type,mu_sl_gf_filter,mu_loc_gf_filter",
+    "umap,mtg,mtmyin2,mtve,wg3,mtyh,mtyahin,mtya,mtks,mtlux,mtnavm,mtgis2,mtgt,mtwikim,mtgom,mthere,mtosm,mtmapbox,mtagis,mtvisicom,mtowm,mtaeris",
+    "__sensolator_resource_id,access_templates,apst,autocomplete,drvsvlist,fpnl,language,lastmsgl,m_ge,m_gu,m_ml,m_mm,m_monu,m_mt,m_ui,m_un,minimap_zoom_level,mongr,monu,monuei,monuexpg,monugr,monugv,monuv,msg_aw,mtla10,mtla11,mtla5,mtla6,mtla9,mtlb,mtlg,mu_tbl_cols_sizes,mu_tbl_sort,mugow,muow,pbsd,radd,route_provider,tracks_player_show_params,tracks_player_show_sensors,trlsvlist,us_addr_ordr,used_hw,vsplit,znsvlist"
+]

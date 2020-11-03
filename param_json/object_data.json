@@ -1,0 +1,57 @@
+{
+    "params": [
+        {
+            "svc": "unit/update_hw_params",
+            "params": {
+                "itemId": 0,
+                "hwId": 0,
+                "fullData": 1,
+                "action": "get"
+            }
+        },
+        {
+            "svc": "unit/get_report_settings",
+            "params": {
+                "itemId": 0
+            }
+        },
+        {
+            "svc": "unit/get_activity_settings",
+            "params": {
+                "itemId": 0
+            }
+        },
+        {
+            "svc": "unit/get_messages_filter",
+            "params": {
+                "itemId": 0
+            }
+        },
+        {
+            "svc": "unit/get_command_definition_data",
+            "params": {
+                "itemId": 0,
+                "col": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "13",
+                    "14"
+                ]
+            }
+        },
+        {
+            "svc": "unit/get_drive_rank_settings",
+            "params": {
+                "itemId": 0
+            }
+        }
+    ],
+    "flags": 0
+}

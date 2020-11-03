@@ -1,0 +1,37 @@
+{
+  "params": [
+    {
+      "svc": "resource/get_zone_data",
+      "params": {
+        "itemId": 0,
+        "col": [],
+        "flags": 0
+      }
+    },
+    {
+      "svc": "resource/get_job_data",
+      "params": {
+        "itemId": 0,
+        "col": [],
+        "flags": 0
+      }
+    },
+    {
+      "svc": "resource/get_notification_data",
+      "params": {
+        "itemId": 0,
+        "col": [],
+        "flags": 0
+      }
+    },
+    {
+      "svc": "report/get_report_data",
+      "params": {
+        "itemId": 0,
+        "col": [],
+        "flags": 0
+      }
+    }
+  ],
+  "flags": 0
+}
