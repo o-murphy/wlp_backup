@@ -93,10 +93,10 @@ def delete_old_data(table):
     log.info('removing old data...')
     # print('deleting old records')
     date = datetime.now().date()
-    last_day = date - timedelta(days=14)
-    conn = sqlite3.connect("wlpbackup.db")
+    last_day = date - timedelta(days=period)
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    sql = f"""DELETE from {table} where date = '{last_day}'"""
+    sql = f"""DELETE FROM {table} WHERE date = '{last_day}'"""
     cursor.execute(sql)
     conn.commit()
     conn.close()
@@ -123,7 +123,7 @@ def main():
             log.exception('backup error')
 
         try:
-            log.info('units backup started...')
+            log.info('users backup started...')
             backup(host, token, item_type='user')
             delete_old_data(table='user')
         except Exception:
@@ -147,6 +147,7 @@ if __name__ == "__main__":
         host = config['host']
         token = config['token']
         db_path = config['db_path']
+        period = config['period']
 
         log.info("success")
         main()
